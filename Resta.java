@@ -9,7 +9,9 @@ public class Resta {
         numero1 = scanner.nextInt();
         System.out.println("Ingrese numero 2 ");
         numero2 = scanner.nextInt();
-        
+
+    scanner.close();
+
 
         //Operacion 
         resta = numero1-numero2;
